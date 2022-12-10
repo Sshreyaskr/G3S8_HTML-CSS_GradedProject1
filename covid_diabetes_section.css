@@ -1,0 +1,66 @@
+.menu {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 80%;
+    left: 9.8%;
+    box-shadow: 1px 2px 10px 8px black; 
+    overflow: hidden;          
+}
+
+.menuHeading {
+    width: 15%;
+    background-color: lightblue;
+    position: relative;
+    top: 5%;
+    font-size: x-large;
+    text-align: center;
+}
+
+.menuHeading2 {
+    width: 15%;
+    background-color: lightblue;
+    position: relative;
+    top: 19%;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.options {
+    position: relative;
+    width: 15%;
+    height: 25%;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    background-color: lavender;
+    top: 10%;
+    left: 3%;
+    display: inline-block;
+    margin: 0px 47px;
+    box-shadow: 1px 2px 8px 8px grey;
+}
+
+.option1 {
+    position: absolute;
+    color: steelblue;
+    left: 12%;
+    top: 3%;
+    padding: 10px 12px;
+}
+
+.addtocart {
+    width: 90%;
+    position: absolute;
+    right: 17%;
+    border: 2px solid steelblue;
+    border-radius: 5px;
+    color: lightsalmon;
+    font-weight: bold;          
+}
+
+img{
+    width: 120px;
+    height: 90px;
+}

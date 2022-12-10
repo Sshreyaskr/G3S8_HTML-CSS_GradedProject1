@@ -1,0 +1,32 @@
+.slidershow {
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('https://cdn.fstoppers.com/styles/full/s3/media/2019/12/04/nando-jpeg-quality-006-too-much.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 8px black;
+    animation: slider 9s infinite linear;
+    border: 2px solid steelblue;
+}
+
+.slidershow:hover {
+    animation-play-state: paused;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url('https://cdn.fstoppers.com/styles/full/s3/media/2019/12/04/nando-jpeg-quality-006-too-much.jpg');
+    }
+
+    40% {
+        background-image: url('https://thumbs.dreamstime.com/b/colorful-antibiotic-capsule-pills-white-background-pharmaceutics-concept-antibiotic-drug-resistance-pharmaceutical-industry-153068412.jpg');
+    }
+
+    70% {
+        background-image: url('https://waywedesign.com/wp-content/uploads/2020/07/Impact-of-digital-marketing-in-the-pharmaceutical-industry.jpg');
+    }
+
+}

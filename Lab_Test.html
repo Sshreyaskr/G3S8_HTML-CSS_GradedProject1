@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab Test Form</title>
+    <link rel="stylesheet" href="frm3.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="col left">
+            <form action="form_submittion.html">
+                <article>
+                    <h3>1. Your Contact Details</h3>
+                    <input type="text" title="name" placeholder="Full Name" required>
+                    <input type="text" placeholder="Patient Id if exists" required><br>
+    
+                    <input type="number" min="6000000000" max="9999999999" placeholder="Contact Number" required>
+                    <input type="email" placeholder="Email Id" required>
+                    <br><br>
+    
+                    <h3>2. Address</h3>
+                    <input type="text" placeholder="House No." required>
+                    <input type="text" placeholder="Street" required><br>
+                    <input type="text" placeholder="Area">
+                    <br><br>
+    
+    
+                    <label for="District"><b>District</b></label><br><br>
+                    <select name="District" id="District" required>
+                        <option value="">Choose:</option>
+                        <option value="Bengaluru">Bengaluru</option>
+                        <option value="Mysuru">Mysuru</option>
+                        <option value="Uduppi">Uduppi</option>
+                        <option value="Mangalore">Mangalore</option>
+                    </select>
+                    <br><br>
+    
+                    <br>
+                    <h3>3. Choose the test type</h3>
+                    <p>Check atleast one box without fail</p>
+                    <input type="checkbox" id="test1" name="option1" value="CBC">
+                    <label for="test1">CBC</label><br>
+    
+                    <input type="checkbox" id="test2" name="option2" value="Complete Urine">
+                    <label for="test2">Complete Urine</label><br>
+    
+                    <input type="checkbox" id="test3" name="option3" value="Lipid Profile">
+                    <label for="test3">Lipid Profile</label><br>
+    
+                    <input type="checkbox" id="test4" name="option4" value="Thyroid Stimulating Hormone(TSH)">
+                    <label for="test4">Thyroid Stimulating Hormone(TSH)</label><br>
+    
+                    <input type="checkbox" id="test5" name="option5" value="Glucose Test">
+                    <label for="test5">Glucose Test</label><br>
+                    <br>
+    
+                    <h3>4. Do you want a hard copy of the report also?</h3><br>
+                    <input type="radio" id="choice1" name="option" value="Yes">
+                    <label for="choice1">Yes</label><br>
+    
+                    <input type="radio" id="choice2" name="option" value="No">
+                    <label for="choice2">No</label><br><br>
+    
+                    <h3>5. Choose your comfortable date & time</h3><br>
+                    <input type="datetime-local" id="Date&Time" name="datetime">
+                    <br>
+                    <button>Submit</button>
+                <button type="reset">Reset</button>
+    
+                </article>   
+                
+                <!-- <button>Reset</button>   -->
+            </form>
+           
+        </div>
+
+        <div class="col">
+            <img src="Images\Lab-Test\lab-test.jpg">
+        </div>
+    </div>
+       
+    
+</body>
+
+</html>

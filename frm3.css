@@ -1,0 +1,135 @@
+ /* simple selector */
+ body {
+    background-color: rgb(255, 253, 250);
+    margin: 0px 0px 0px 0px; 
+}
+
+/* combinator selector */
+
+/* pseudo element selector */
+header p::first-line {
+    font-weight: bold;
+    color: rgb(76, 0, 255);
+}
+
+p,
+h1 {
+    padding: 10px;
+}
+
+
+
+
+article {
+    
+    /* margin-top: 100px; */
+    padding: 30px;
+    text-align: left;
+    background-color: white;
+    /* height: 100%;     */
+}
+
+article h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px
+}
+
+p::after{
+    content: "*";
+    color: red;
+}
+
+article h3.nm:after {
+    content: "";
+}
+
+input {
+    width: 300px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    height: 30px;
+}
+
+input,
+label,
+h3,
+#district {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* pseudo class selector */
+input:focus {
+    outline: none !important;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+/* attribute selector */
+input[name^="option"] {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    float: right;
+    border: none;
+    padding: 5px;
+    background-color: rgb(175, 102, 243);
+}
+
+#district {
+    height: 50px;
+}
+
+
+#container {
+    font-size: 0;
+    width: 90%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    width: 1300px;
+    height: 750px;
+    margin-left: 100px;
+   
+}
+
+.col {
+    font-size: 1rem;
+    width: 50%;
+    display: inline-block;
+    
+}
+
+
+
+.left {
+    z-index: 1;  
+}
+
+img {
+   position: -webkit-sticky;
+   position: sticky;
+    width: 700px;
+    height: 850px;
+    padding: 15px;
+    top: 27px;
+    bottom: 30px;  
+}
+
+
+
+
+
+
+/* html, body {margin: 0; height: 100%; overflow: hidden} */
